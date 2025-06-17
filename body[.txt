@@ -1,0 +1,38 @@
+.body{
+    font-family:'Arial',sans serif;
+    background-color:#f5f5f5;
+    margin:0;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+   .sidebar {
+    width:200px;
+    backgroung color:#f0f0f0;
+    padding:1rem
+   }
+.todo-container{
+    background-color:white;
+    border-radius:8px;
+    box-shadow:0 4px 8px;
+    padding:20px;
+    width:100%;
+    max-width:500px;
+}
+.h1{
+    text-align:center;
+    color:#333
+}
+.input section{
+    display:flex;
+    margin-bottom:20px;
+}
+    
+.todo input{
+    flex:1;
+    padding:10px;
+    border:10px;
+    border-radius:4px;
+    font size:16px;
+}

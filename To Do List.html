@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width",initial-scale=1.0>
+        <title> Task Tidy</title>
+        <link rel="stylesheet"  href="style.css">
+        </head>
+        <body>
+            <div class="app-container">
+                <h2>Categories</h2>
+                <ul>
+                    <li>Study</li>
+                    <li>Work</li>
+                    <li>Personal</li>
+                </ul>
+                <div class="side bar"></div>
+                <h1>Task Tidy</h1>
+                <button id="theme toggle"></button>
+                <div class="input selection">
+                    <input type="text" id="todo-input" placeholder="Add a new task">
+                    <button id="add-btn"></button>
+                    <form id="taskForm">
+                        <input type="text"   id="title" placeholder="Task Title" required>
+                        <textarea id="description" placeholder="Description"></textarea>
+                        <select id="category" required>
+                        <option value="">category</option>
+                        <option value="study">study</option>
+                        <option value="work">work</option>
+                        <option value="personal">personal</option>
+                        </select>
+                        <select id="priority" required>
+                            <option value="">priority</option>
+                            <option value="high">high</option>
+                            <option value="medium">medium</option>
+                            <option value="low">low</option>
+                            </select>
+                            <input type="date" id="dueDate" required>
+                            <button type="submit">Add Task</button>
+                            </form>
+                            </section>
+                            <section class="Filters"></section>
+                            <h2>Filters</h2>
+                            <select id="filter Category">
+                                <option value="all">all categories</option>
+                                <option value="study">study</option>
+                                <option value="work">work</option>
+                                <option value="personal">personal</option>
+                                </select>
+                                <select id="filter priority">
+                                    <option value="all">all priorities</option>
+                                    <option value="high">high</option>
+                                    <option value="medium">medium</option>
+                                    <option value="low">low</option>
+                                    
+                </div>
+
+                <ul id="todo-list"></ul>
+                <div class="stats">
+                    <span id="total tasks"></span>
+                    <span id="completed tasks"></span>
+                </div>
+                </body>
+                </html>
