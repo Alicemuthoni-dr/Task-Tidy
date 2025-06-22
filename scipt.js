@@ -1,4 +1,4 @@
-document.addEventListenerZ("DOMContentLoaded",()  =>{
+document.addEventListener("DOMContentLoaded",()  =>{
     const form=
     document.getElementById("taskForm");
     const categoryFilter =
@@ -6,8 +6,11 @@ document.addEventListenerZ("DOMContentLoaded",()  =>{
     const priorityFilter =
     document.getElementById("filter priority");
 
+    document.getElementById(add-button).addEventListener("click, function();
+        console.log("Clicked Add Task")
+
     const tasklist =
-    document.createElement("ul");
+    document.createElementbyId("todo-list");
     document.body.appendChild(tasklist);
 
     form.addEventListener("submit" , function (e)  {
